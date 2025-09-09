@@ -1,16 +1,30 @@
-# flutter_ToDo
+# ToDo App with Firebase Authentication
 
-A new Flutter project.
+A Flutter-based ToDo App with **Login & Signup** functionality, built using **Firebase Authentication** and **Firebase Storage**.  
+Each user can securely manage their tasks with personal data stored under their own account.
 
-## Getting Started
+## 🚀 Features
+- 🔐 User Authentication (Login & Signup) using Firebase  
+- 📝 Add, edit, and delete personal ToDo items  
+- ☁️ Store & sync user data with Firebase  
+- 👤 Separate ToDo data for each user  
+- 📱 Simple and user-friendly UI  
 
-This project is a starting point for a Flutter application.
+## 🛠️ Tech Stack
+- **Frontend:** Flutter, Dart  
+- **Backend & Auth:** Firebase Authentication  
+- **Database & Storage:** Firebase Storage  
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## ⚙️ Getting Started
+
+### Prerequisites
+- Install [Flutter](https://docs.flutter.dev/get-started/install)  
+- Setup Firebase project and add `google-services.json` (Android) or `GoogleService-Info.plist` (iOS)
+
+### Installation
+1. Clone the repository  
+   ```bash
+   git clone https://github.com/your-username/todo_firebase_app.git
+   cd todo_firebase_app
